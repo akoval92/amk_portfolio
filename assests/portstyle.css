@@ -43,12 +43,19 @@
       text-decoration-line: underline;
   }
 
+.button{
+    background-color: lavender;
+    padding-top: 2px;
+    border-style: solid;
+}
+
 #ul{
     list-style: none;
 }
 
 #linkhead{
     text-decoration-line: underline;
+    font-family: 'Assistant', sans-serif;
 }
 
   #listlinks{
