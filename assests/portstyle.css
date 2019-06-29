@@ -4,8 +4,6 @@
 }
 
 
-
-
 .rcorners3 {
     border-radius: 15px 50px;
     background: mediumpurple;
@@ -43,11 +41,14 @@
       text-decoration-line: underline;
   }
 
-.button{
+/* .button{
     background-color: lavender;
-    padding-top: 2px;
+    padding-top: 7px;
+    padding-right: 1px;
+    margin-right: 115px;
     border-style: solid;
-}
+    vertical-align: 40px;                                   /*spacing out(top/bottom)*/
+} */
 
 #ul{
     list-style: none;
@@ -55,7 +56,9 @@
 
 #linkhead{
     text-decoration-line: underline;
+    text-align: center;
     font-family: 'Assistant', sans-serif;
+    padding-right: 5px;
 }
 
   #listlinks{
@@ -64,26 +67,18 @@
       padding-top: 8px;
       border-style: solid;
       border-width: 0.75px;
-      background-color: lightgrey;
+      background-color: rgb(99, 176, 240);
       font-family: 'Assistant', sans-serif;
+      
   }
 
 #statement{
-    margin-top: 310px;
+    margin-top: 300px;
     padding-top: 8px;
     border-style: solid;
     border-width: 0.75px;
     background-color: lightgrey;
     font-family: 'Assistant', sans-serif;
-}
-
-.sample{
-    margin-top: 60px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    border-style: solid;
-    border-width: 2px;
-    background-color: darkcyan;
 }
 
 .cardimg{
@@ -93,3 +88,19 @@
     padding-top: 5px;
 }
 
+
+.showProject{
+    margin-top: 60px;
+    margin-right: 336px; 
+    padding-top: 8px;
+    padding-left: 5px;
+    border-style: solid;
+    background-color: darkcyan;
+
+}
+
+.projectDisplayCard{
+    margin-left: 5px;
+    padding-right: 5px;
+    background-color: whitesmoke;
+}
