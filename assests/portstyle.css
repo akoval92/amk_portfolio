@@ -40,14 +40,7 @@
     text-decoration-line: underline;
     padding-left: 18px; 
   }
-  
-#linkBtn1{
-    margin-left: 18px;
-}
 
-#linkBtn2{
-    margin-left: 10px;
-}
 
 #ulLinks{
     list-style: none;
@@ -62,9 +55,29 @@
 
 #linkHead{
     padding-top: 10px;
+    padding-left: 50px;
     text-decoration: underline;
     font-family: 'Assistant', sans-serif;
 }
+
+
+#linkBtn1{
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: black;
+    background-color: lightsteelblue;
+}
+
+#linkBtn2{
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: black;
+    background-color: lightsteelblue;
+}
+
+
+
+
 
 #statement{
     margin-top: 300px;
@@ -85,11 +98,21 @@
     font-family: 'Assistant', sans-serif;
 }
 
+#whyHeader{
+    
+}
+
 .cardimg{
     width: 150px;
     height: 120px;
     padding-left: 5px;
     padding-top: 5px;
+}
+
+.card-content{
+
+    padding-right: 10px;
+    padding-top: 10px;
 }
 
 
@@ -102,6 +125,13 @@
     background-color: darkcyan;
 
 }
+
+    #trainDesc{
+        margin-right: 200px:
+    }
+
+
+
 
 .projectDisplayCard{
     margin-left: 5px;
