@@ -3,7 +3,6 @@
     padding-bottom: 50px;
 }
 
-
 .rcorners3 {
     border-radius: 15px 50px;
     background: mediumpurple;
@@ -31,49 +30,54 @@
     margin-top: 20px;
   }
 
-  .menu {
+  .menu{
     text-align: center;
     list-style-type: none;
     font-family: 'Assistant', sans-serif;
   }
 
   #stateheader{
-      text-decoration-line: underline;
+    text-decoration-line: underline;
+    padding-left: 18px; 
   }
+  
+#linkBtn1{
+    margin-left: 18px;
+}
 
-/* .button{
-    background-color: lavender;
-    padding-top: 7px;
-    padding-right: 1px;
-    margin-right: 115px;
-    border-style: solid;
-    vertical-align: 40px;                                   /*spacing out(top/bottom)*/
-} */
+#linkBtn2{
+    margin-left: 10px;
+}
 
-#ul{
+#ulLinks{
     list-style: none;
 }
 
-#linkhead{
-    text-decoration-line: underline;
-    text-align: center;
-    font-family: 'Assistant', sans-serif;
-    padding-right: 5px;
+
+#listLinks{
+    margin-top: 24px;
+    
 }
 
-  #listlinks{
-      text-align: right;
-      margin-top: 50px;
-      padding-top: 8px;
-      border-style: solid;
-      border-width: 0.75px;
-      background-color: rgb(99, 176, 240);
-      font-family: 'Assistant', sans-serif;
-      
-  }
+
+#linkHead{
+    padding-top: 10px;
+    text-decoration: underline;
+    font-family: 'Assistant', sans-serif;
+}
 
 #statement{
     margin-top: 300px;
+    padding-top: 8px;
+    border-style: solid;
+    border-width: 0.75px;
+    background-color: lightgrey;
+    font-family: 'Assistant', sans-serif;
+}
+
+
+#why{
+    margin-top: 90px;
     padding-top: 8px;
     border-style: solid;
     border-width: 0.75px;
@@ -103,4 +107,12 @@
     margin-left: 5px;
     padding-right: 5px;
     background-color: whitesmoke;
+}
+
+#list1 {
+    padding-top: 10px;
+}
+
+#list2 {
+    padding-top: 47px;
 }
