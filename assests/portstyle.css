@@ -1,40 +1,43 @@
 #body{
-    background-color: silver;
-    padding-bottom: 50px;
+    background-image: url('./backgroundSoCa.png');
+    background-repeat: no-repeat;
+    background-size: 1510px 745px;
 }
 
-.rcorners3 {
-    border-radius: 15px 50px;
-    background: mediumpurple;
-    padding: 20px; 
-    width: 200px;
-    height: 150px; 
-    z-index:1;
+  .backgroundCircle {
+    height: 196px;
+    width: 196px;
+    background-color: yellow;
+    border-radius: 50%;
+    margin-left: 500px;
+
   }
 
   #headshot {
-     border-radius: 15px 50px;
-     width: 120px;
-     height: 100px;
-     padding-left: 30px;
-     z-index:30;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    margin-left: 56px;
+    margin-top: 10px;
   }
 
   #mainbar{
     top: 50px;
     left: 50px;
-    position:absolute;
+    /* position:absolute; */
     height:115px;
-    background: darkslateblue;
-    z-index:1;
-    margin-top: 20px;
+    background: rgb(21, 176, 248, .2);
+    /* opacity: 0.3; */
+    /* z-index:1; */
+    margin-top: 100px;
   }
 
   .menu{
+      padding-top: 15px;
     text-align: center;
     list-style-type: none;
-    font-family: 'Assistant', sans-serif;
-  }
+    font-family: 'Old Standard TT', serif;
+}
 
   #stateheader{
     text-decoration-line: underline;
@@ -47,17 +50,17 @@
 }
 
 
-#listLinks{
+/* #listLinks{
     margin-top: 24px;
     
-}
+} */
 
 
 #linkHead{
-    padding-top: 10px;
+    /* padding-top: 10px; */
     padding-left: 50px;
     text-decoration: underline;
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Old Standard TT', serif;
 }
 
 
@@ -80,12 +83,12 @@
 
 
 #statement{
-    margin-top: 300px;
+    /* margin-top: 300px; */
     padding-top: 8px;
-    border-style: solid;
-    border-width: 0.75px;
-    background-color: lightgrey;
-    font-family: 'Assistant', sans-serif;
+    /* border-style: solid; */
+    /* border-width: 0.75px;   */       /* theses 3 lines got rid of link background*/
+    /* background-color: lightgrey; */
+    font-family: 'Old Standard TT', serif;
 }
 
 
@@ -95,7 +98,7 @@
     border-style: solid;
     border-width: 0.75px;
     background-color: lightgrey;
-    font-family: 'Assistant', sans-serif;
+    font-family: 'Old Standard TT', serif;
 }
 
 #whyHeader{
