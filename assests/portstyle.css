@@ -1,7 +1,7 @@
 #body{
     background-image: url('./backgroundSoCa.png');
     background-repeat: no-repeat;
-    background-size: 1510px 745px;
+    background-size: 1360px 680px;
 }
 
   .backgroundCircle {
@@ -24,19 +24,27 @@
   #mainbar{
     top: 50px;
     left: 50px;
-    /* position:absolute; */
     height:115px;
     background: rgb(21, 176, 248, .2);
-    /* opacity: 0.3; */
-    /* z-index:1; */
     margin-top: 100px;
   }
 
   .menu{
-      padding-top: 15px;
-    text-align: center;
+    padding-top: 70px;
+    text-align: left;
     list-style-type: none;
     font-family: 'Old Standard TT', serif;
+    color: rgb(169, 148, 248);
+    font-weight: 900;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+}
+
+#line2{
+    padding-left: 55px;
 }
 
   #stateheader{
@@ -50,18 +58,11 @@
 }
 
 
-/* #listLinks{
-    margin-top: 24px;
-    
-} */
-
-
-#linkHead{
-    /* padding-top: 10px; */
+/* linkHead{
     padding-left: 50px;
     text-decoration: underline;
     font-family: 'Old Standard TT', serif;
-}
+}# */
 
 
 #linkBtn1{
@@ -77,9 +78,6 @@
     color: black;
     background-color: lightsteelblue;
 }
-
-
-
 
 
 #statement{
@@ -101,9 +99,6 @@
     font-family: 'Old Standard TT', serif;
 }
 
-#whyHeader{
-    
-}
 
 .cardimg{
     width: 150px;
