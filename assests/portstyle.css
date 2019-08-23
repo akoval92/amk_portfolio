@@ -1,11 +1,14 @@
 #body{
-    background-image: url('./background.png');
+    background-image: url('./20160102_170315.jpg');
     background-repeat: no-repeat;
     background-size: 1360px 680px;
 }
 
 .nav-item{
-    padding-right: 50px;
+    padding-left: 55px;
+    padding-bottom: 15px;
+    font-family: 'Old Standard TT', serif;
+
 }
 
   .backgroundCircle {
@@ -30,7 +33,7 @@
     left: 50px;
     height:115px;
     background: rgba(16, 19, 161, 0.4);
-    background-image: url('./Floating-Stars-PNG-HD.png');
+    background-image: url('./kisspng-angle-pattern-vector-background-star-5aa2c68526be61.3295697615206170931587.png');
     margin-top: 100px;
   }
 
@@ -54,15 +57,42 @@
     color: rgb(64, 142, 243);
 }
 
+
+.linkList{
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
   #stateheader{
     text-decoration-line: underline;
     padding-left: 18px; 
   }
 
 
-    #linkLogo{
+    #resumeLinkLogo{
         height: 30px;
         width: 30px;
+        margin-left: 5px;
+    }
+
+    #linkedinlinkLogo{
+        height: 40px;
+        width: 40px;
+        margin-left: 3px;
+    }
+    #githubLinkLogo{
+        height: 40px;
+        width: 40px;
+    }
+    #linkLogo{
+        height: 40px;
+        width: 40px;
     }
 
 
@@ -77,21 +107,6 @@
     text-decoration: underline;
     font-family: 'Old Standard TT', serif;
 }# */
-
-
-#linkBtn1{
-    margin-bottom: 5px;
-    font-weight: 700;
-    color: black;
-    background-color: lightsteelblue;
-}
-
-#linkBtn2{
-    margin-bottom: 5px;
-    font-weight: 700;
-    color: black;
-    background-color: lightsteelblue;
-}
 
 
 #statement{
@@ -157,4 +172,8 @@
 
 #list2 {
     padding-top: 47px;
+}
+
+#photoCredit{
+    padding-left: 5px;
 }
