@@ -5,14 +5,6 @@
 
 }  */
 
-/* @media only screen and (max-width: 992px) {
-    .body {
-        width: 
-
-    }
-
-}  */
-
 #workSign {
     width: 500px;
     height: 300px;
@@ -23,21 +15,167 @@
 }
 
 
+/* Phone       *height = +180px  */
+@media only screen and (max-width: 600px) {
+    .body {
+
+        height: 780;
+        width: 100%;
+
+        background-color: rgb(63, 122, 248); 
+        background-image: linear-gradient(to right, rgb(25, 2, 75) , rgb(82, 162, 253));
+
+    }
+
+  #headshot {
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    margin-left: 30px;
+    margin-top: 1px;
+  }
+
+
+    .innerBackgroundCircle {
+        height: 100px;
+        width: 100px;
+        /* background-color: rgb(250, 240, 108); */
+        background-color: rgb(24, 2, 66);
+        background-image: url("./Floating-Stars-PNG-HD.png");
+        border-radius: 50%;
+        margin-left: 25px;
+        /* margin-top: 30px; */
+      }
+
+
+      .backgroundCircle {
+        height: 140px;
+        width: 140px;
+        background-color: rgb(241, 238, 59);
+        border-radius: 50%;
+        margin-left: 100px; 
+        margin-top: 50px;
+      }
+
+
+      #resumeLinkLogo{
+        height: 20px;
+        width: 20px;
+        margin-left: 50px;
+        margin-right: 17px;
+        background-color: azure;
+        /* padding-left: 10px; */
+    }
+    
+    #linkedinlinkLogo{
+        height: 20px;
+        width: 20px;
+        margin-left: 3px;
+        margin-right: 10px;
+        /* background-color: azure; */
+    
+    }
+    #githubLinkLogo{
+        height: 20px;
+        width: 20px;
+        margin-right: 15px;
+        /* background-color: azure; */
+    
+    }
+
+    
+.nav-link {
+    color: red;     /*   change color   */
+    padding-right: 10px;
+}
+
+#pastProjects{
+    margin-left: 25px;
+    text-decoration: underline;
+    font-size: 17px;
+
+}
+
+.projectText{
+    margin-left: 5px;
+    /* margin-left: 60px; */
+    padding-top: 5px;
+    color: red;
+}
+
+.thumbnailImage {
+    border: 2px solid rgb(142, 169, 243); 
+    border-radius: 4px; 
+    padding: 5px; 
+    /* margin-top: 40px;  */
+    /* margin-left: 40px;  */
+    width: 80px;
+    height: 60px;
+  }
+  
+ 
+  .thumbnailImage:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+
+
+
+
+
+
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Computer         */
+
+
 
 @media only screen and (min-width: 992px) {
     
 .body{
-    /* height: 200px; */
-    background-color: blue; /* For browsers that do not support gradients */
+    background-color: rgb(63, 122, 248); 
     background-image: linear-gradient(to right, rgb(25, 2, 75) , rgb(82, 162, 253));
-    /* background-repeat: no-repeat; */
 }
 
-.nav-item{
+/* .nav-item{
     padding-left: 55px;
     padding-top: 40px;
     font-family: 'Old Standard TT', serif;
-}
+} */
+
+#headshot {
+    height: 115px;
+    width: 115px;
+    border-radius: 50%;
+    margin-left: 21px;
+    /* margin-top: 10px; */
+  }
+
+
+
+
 
 .innerBackgroundCircle {
     height: 160px;
@@ -61,19 +199,11 @@
     margin-top: 50px;
   }
 
-  #headshot {
-    height: 115px;
-    width: 115px;
-    border-radius: 50%;
-    margin-left: 22px;
-    margin-top: 10px;
-  }
-
   
   #resumeLinkLogo{
     height: 30px;
     width: 30px;
-    margin-left: 5px;
+    margin-left: 500px;
     margin-right: 17px;
     background-color: azure;
     /* padding-left: 10px; */
@@ -91,12 +221,10 @@
     height: 40px;
     width: 40px;
     margin-right: 15px;
-    /* background-color: azure; */
-
 }
 
-.nav-link {
-    color: red;
+.linkText {
+    color: red;         /*   change color   */
     padding-right: 10px;
 }
 
@@ -118,7 +246,7 @@
     border: 2px solid rgb(142, 169, 243); 
     border-radius: 4px; 
     padding: 5px; 
-    margin-top: 40px; 
+    /* margin-top: 40px;  */
     /* margin-left: 40px;  */
     width: 150px;
   }
