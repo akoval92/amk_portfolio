@@ -13,6 +13,15 @@
 
 }  */
 
+#workSign {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 400px;    
+
+}
+
 
 
 @media only screen and (min-width: 992px) {
