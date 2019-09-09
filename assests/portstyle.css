@@ -16,12 +16,12 @@
 
 
 /* Phone       *height = +180px  */
-@media only screen and (max-width: 600px) {
-    .body {
 
+@media only screen and (max-width: 600px) {
+
+    .body {
         height: 780;
         width: 100%;
-
         background-color: rgb(63, 122, 248); 
         background-image: linear-gradient(to right, rgb(25, 2, 75) , rgb(82, 162, 253));
 
@@ -39,7 +39,6 @@
     .innerBackgroundCircle {
         height: 100px;
         width: 100px;
-        /* background-color: rgb(250, 240, 108); */
         background-color: rgb(24, 2, 66);
         background-image: url("./Floating-Stars-PNG-HD.png");
         border-radius: 50%;
@@ -64,11 +63,10 @@
         margin-left: 218px;
         margin-right: 10px;
         background-color: azure;
-        /* padding-bottom: 10px; */
     }
 
     
-    #linkedinlinkLogo{
+    #linkedinLinkLogo{
         height: 20px;
         width: 20px;
         margin-left: 220px;
@@ -90,7 +88,6 @@
     .linkText{
         color: rgb(57, 9, 88);
         font-weight: bold;
-        /* padding-left: 10px; */
     }
 
 
@@ -128,24 +125,7 @@
 /* End phone screen */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* add md and xl media queries */
 
 
 /* Computer         */
@@ -155,27 +135,19 @@
 @media only screen and (min-width: 992px) {
     
 .body{
+
     background-color: rgb(63, 122, 248); 
     background-image: linear-gradient(to right, rgb(25, 2, 75) , rgb(82, 162, 253));
 }
 
-/* .nav-item{
-    padding-left: 55px;
-    padding-top: 40px;
-    font-family: 'Old Standard TT', serif;
-} */
 
 #headshot {
     height: 115px;
     width: 115px;
     border-radius: 50%;
-    margin-left: 21px;
-    /* margin-top: 10px; */
+    margin-left: 25px;
+    margin-top: 0.25px;
   }
-
-
-
-
 
 .innerBackgroundCircle {
     height: 160px;
@@ -191,63 +163,67 @@
   .backgroundCircle {
     height: 200px;
     width: 200px;
-    /* background-color: rgba(0, 0, 0); */
     background-color: rgb(241, 238, 59);
-
     border-radius: 50%;
     margin-left: 450px; 
-    margin-top: 50px;
+    margin-top: 25px;
   }
 
   
   #resumeLinkLogo{
-    height: 30px;
-    width: 30px;
-    margin-left: 300px;
+    height: 50px;
+    width: 50px;
+    margin-left: 895px;
     margin-right: 17px;
     background-color: azure;
-    /* padding-left: 10px; */
 }
 
-#linkedinlinkLogo{
-    height: 40px;
-    width: 40px;
-    margin-left: 3px;
-    margin-right: 10px;
-    /* background-color: azure; */
+#linkedinLinkLogo{
+    height: 50px;
+    width: 50px;
+    margin-left: 898px;
+    margin-right: 17px;
+    padding-left: 5.5px;
+    background-color: azure;
 
 }
 #githubLinkLogo{
-    height: 40px;
-    width: 40px;
-    margin-right: 15px;
+    height: 50px;
+    width: 50px;
+    margin-left: 900px;
+    margin-right: 17px;
+    background-color: azure;
 }
 
 .linkText {
-    color: red;         /*   change color   */
+    color: rgb(57, 9, 88);
+    font-weight: bold;
     padding-right: 10px;
+    font-size: 20px;
 }
 
+
 #pastProjects{
-    margin-left: 25px;
     text-decoration: underline;
     font-size: 35px;
+    color: rgb(104, 160, 233);
+    padding-bottom: 10px;
 
 }
 
 .projectText{
-    margin-left: 20px;
-    /* margin-left: 60px; */
-    padding-top: 25px;
-    color: red;
+    margin-left: 25px;
+    padding-top: 10px;
+    font-size: 20px;
+    color: rgb(210, 183, 247);
 }
 
 .thumbnailImage {
-    border: 2px solid rgb(142, 169, 243); 
+    border: 2px solid rgb(6, 49, 128); 
     border-radius: 4px; 
     padding: 5px; 
     /* margin-top: 40px;  */
-    /* margin-left: 40px;  */
+    margin-left: 20px; 
     width: 150px;
   }
   
@@ -257,106 +233,9 @@
   }
 
 
-}                           /*end lg screen media query*/
+}                           
 
-  /* .menu{
-    padding-top: 70px;
-    text-align: left;
-    list-style-type: none;
-    font-family: 'Old Standard TT', serif;
-    color: rgb(169, 148, 248);
-    font-weight: 900;
-    text-shadow:
-		-1px -1px 0 #000,
-		1px -1px 0 #000,
-		-1px 1px 0 #000,
-		1px 1px 0 #000;
-} */
+/*end lg screen media query*/
 
-
-/* #line2{
-    padding-left: 40px;
-    color: rgb(64, 142, 243);
-}
-
-
-.linkList{
-    padding-bottom: 50px;
-} */
-
-
-  /* #stateheader{
-    text-decoration-line: underline;
-    padding-left: 18px; 
-  } */
-
-
-
-/* linkHead{
-    padding-left: 50px;
-    text-decoration: underline;
-    font-family: 'Old Standard TT', serif;
-}# */
-
-
-/* #statement{
-    padding-top: 8px;
-    font-family: 'Old Standard TT', serif;
-}
-
-
-#why{
-    margin-top: 90px;
-    padding-top: 8px;
-    border-style: solid;
-    border-width: 0.75px;
-    background-color: lightgrey;
-    font-family: 'Old Standard TT', serif;
-}
-
-
-.cardimg{
-    width: 150px;
-    height: 120px;
-    padding-left: 5px;
-    padding-top: 5px;
-}
-
-.card-content{
-
-    padding-right: 10px;
-    padding-top: 10px;
-}
-
-
-.showProject{
-    margin-top: 60px;
-    margin-right: 336px; 
-    padding-top: 8px;
-    padding-left: 5px;
-    border-style: solid;
-    background-color: darkcyan;
-
-}
-
-    #trainDesc{
-        margin-right: 200px:
-    }
-
-
-
-
-.projectDisplayCard{
-    margin-left: 5px;
-    padding-right: 5px;
-    background-color: whitesmoke;
-}
-
-#list1 {
-    padding-top: 10px;
-}
-
-#list2 {
-    padding-top: 47px;
-} */
+ 
 
