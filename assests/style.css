@@ -5,14 +5,6 @@
 
 }  */
 
-#workSign {
-    width: 500px;
-    height: 300px;
-    position: absolute;
-    z-index: 1;
-    margin-left: 400px;    
-
-}
 
 .body{
     background-color: rgb(63, 122, 248); 
@@ -71,7 +63,7 @@
 
 /* Phone     * height = w + 180px  */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 576px) {
 
 .body {
     height: 780;
@@ -151,7 +143,83 @@
 /* add md and xl media queries */
 
 
-/* Computer         */
+/* Tablet start */
+
+@media only screen and (max-width: 768px) {
+
+
+#headshot {
+    height: 105px;
+    width: 105px;
+    border-radius: 50%;
+    margin-left: 29px;
+}
+
+
+.innerBackgroundCircle {
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    margin-left: 25px;
+}
+
+
+.backgroundCircle {
+    height: 220px;
+    width: 220px;
+    border-radius: 50%;
+    margin-left: 230px; 
+    margin-top: 12px;
+}
+
+#resumeLinkLogo{
+    height: 20px;
+    width: 20px;
+    margin-left: 218px;
+    margin-right: 10px;
+}
+ 
+#linkedinLinkLogo{
+    height: 20px;
+    width: 20px;
+    margin-left: 220px;
+    padding-left: 2px;
+    margin-right: 10px;
+}
+
+#githubLinkLogo{
+    height: 20px;
+    width: 20px;
+    margin-right: 15px;
+    margin-left: 223px;
+ }
+
+#pastProjects{
+    margin-left: 55px;
+    margin-top: 15px;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.projectText{
+    margin-left: 50px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.thumbnailImage {
+    border-radius: 4px; 
+    margin-left: 70px; 
+    width: 120px;
+    height: 100px;
+
+
+}
+
+
+/* Tablet end */
+
+/* Computer    start     */
 
 
 
