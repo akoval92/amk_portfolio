@@ -45,6 +45,10 @@
   color: lightskyblue;
 }
 
+#prestoText{
+  color: rgb(210, 183, 247);
+}
+
 .projectText{
   color: rgb(210, 183, 247);
 }
@@ -63,7 +67,7 @@
 
 /* Phone     * height = w + 180px  */
 
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 600px) {
 
 .body {
     height: 780;
@@ -145,7 +149,7 @@
 
 /* Tablet start */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
 
 
 #headshot {
@@ -250,17 +254,21 @@
     margin-top: 25px;
 }
 
+#resPresto{
+  vertical-align: middle;
+}
+
 #resumeLinkLogo{
     height: 50px;
     width: 50px;
-    margin-left: 895px;
-    margin-right: 17px;
+    margin-left: 600px;
+    /* margin-right: 17px; */
 }
 
 #linkedinLinkLogo{
     height: 50px;
     width: 50px;
-    margin-left: 898px;
+    margin-left: 828px;
     margin-right: 17px;
     padding-left: 5.5px;
 }
@@ -268,7 +276,7 @@
 #githubLinkLogo{
     height: 50px;
     width: 50px;
-    margin-left: 900px;
+    margin-left: 827px;
     margin-right: 17px;
 }
 
@@ -282,20 +290,26 @@
     text-decoration: underline;
     font-size: 35px;
     padding-bottom: 10px;
+}
 
+#prestoText{
+  margin-left: 95px;
+  margin-top: 30px;
+  font-size: 20px;
 }
 
 .projectText{
-    margin-left: 25px;
+    margin-left: 85px;
     padding-top: 10px;
     font-size: 20px;
+    padding-bottom: 30px;
 }
 
 .thumbnailImage {
     border-radius: 4px; 
     padding: 5px; 
     /* margin-top: 40px;  */
-    margin-left: 20px; 
+    margin-left: 75px; 
     width: 150px;
   }
 }                           
